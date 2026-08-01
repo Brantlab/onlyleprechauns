@@ -1,0 +1,49 @@
+{{ define "main" }}
+<header class="site-header">
+  <a class="brand" href="#top" aria-label="Charms Fire Co. home"><span class="brand-mark"><span>C</span></span><span class="brand-copy"><b>CHARMS FIRE CO.</b><small>HEAT FOR HIRE</small></span></a>
+  <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Open menu"><span></span><span></span></button>
+  <nav id="main-nav" aria-label="Main navigation"><a href="#shows">The shows</a><a href="#expect">What to expect</a><a href="#crew">The crew</a><a class="nav-cta" href="#book">Book the heat</a></nav>
+</header>
+
+<main id="top">
+  <section class="hero performer-hero">
+    <div class="hero-copy">
+      <p class="eyebrow"><span></span> Firefighter entertainment</p>
+      <h1>WE PUT OUT<br><em>MORE THAN FIRES.</em></h1>
+      <p class="lede">Premium firefighter-themed entertainment for bachelorettes, birthdays, and private events. Professional, playful, and fully equipped to handle your house.</p>
+      <div class="hero-actions"><a class="button button-primary" href="#book">Book your firefighter <span>→</span></a><a class="text-link" href="#shows">See the packages <span>↘</span></a></div>
+      <div class="hero-trust"><span>✓ Discreet & professional</span><span>✓ Custom performances</span><span>✓ 21+ private events</span></div>
+    </div>
+    <div class="hero-stamp" aria-hidden="true"><small>FULLY EQUIPPED</small><b>TO TURN<br>UP THE HEAT</b><span>EST. 2026</span></div>
+    <div class="scroll-cue">SCROLL TO FEEL THE HEAT <span>↓</span></div>
+  </section>
+
+  <section class="ticker" aria-label="Company slogan"><div>NO DRIPS · JUST GRIPS · NO DRIPS · JUST GRIPS · NO DRIPS · JUST GRIPS ·&nbsp;</div></section>
+
+  <section class="packages" id="shows">
+    <div class="packages-head"><div><p class="eyebrow"><span></span> Pick your alarm</p><h2>THE RIGHT AMOUNT<br><em>OF HEAT.</em></h2></div><p>Every event is different. Choose your call, then we’ll tailor the performance to your guest of honor, venue, and comfort level.</p></div>
+    <div class="package-grid">
+      <article><span class="package-no">01</span><p class="mini">A QUICK SPARK · 30 MIN</p><h3>THE<br>FIRST ALARM</h3><ul><li>Firefighter grand entrance</li><li>Interactive spotlight dance</li><li>Photos with your party</li></ul><a href="#book">Request this package →</a></article>
+      <article class="featured"><div class="popular">MOST REQUESTED</div><span class="package-no">02</span><p class="mini">THE FULL BURN · 60 MIN</p><h3>THE<br>HOUSE CALL</h3><ul><li>Everything in First Alarm</li><li>Long-form choreographed show</li><li>Games & guest interaction</li><li>Custom guest-of-honor moment</li></ul><a href="#book">Request this package →</a></article>
+      <article><span class="package-no">03</span><p class="mini">ALL HANDS · CUSTOM</p><h3>THE<br>FIVE ALARM</h3><ul><li>Multiple performers</li><li>Custom run of show</li><li>Perfect for larger venues</li><li>VIP photo experience</li></ul><a href="#book">Build your event →</a></article>
+    </div>
+  </section>
+
+  <section class="expect-section" id="expect">
+    <div class="expect-photo"><span>COURAGE<br>CHARM<br><em>CONTROL</em></span></div>
+    <div class="expect-copy"><p class="eyebrow"><span></span> What to expect</p><h2>HOT SHOW.<br><em>COOL HEADS.</em></h2><p>Flirty never has to mean sketchy. From first contact to final photo, our crew keeps your event smooth, safe, and comfortable.</p><ol><li><b>01</b><span><strong>Tell us the occasion</strong>Share your date, venue, guest count, and preferred energy.</span></li><li><b>02</b><span><strong>We build the call</strong>Your coordinator confirms timing, boundaries, and special details.</span></li><li><b>03</b><span><strong>We bring the heat</strong>Your performer arrives prepared, on time, and ready to entertain.</span></li></ol></div>
+  </section>
+
+  <section class="crew-section" id="crew">
+    <div class="crew-intro"><p class="eyebrow"><span></span> On duty</p><h2>TRAINED TO<br><em>TURN HEADS.</em></h2><p>Our performers are experienced adult entertainers selected for presence, professionalism, and the ability to read a room.</p></div>
+    <div class="values-grid"><article><b>01</b><h3>PROFESSIONAL</h3><p>Clear communication, punctual arrivals, polished performances.</p></article><article><b>02</b><h3>PERSONALIZED</h3><p>Your celebration, your energy, your comfort level.</p></article><article><b>03</b><h3>PRIVATE</h3><p>Discreet booking and respectful conduct from start to finish.</p></article></div>
+    <blockquote>“The perfect mix of hilarious, confident, and seriously hot. The bride is still talking about it.”<footer>— FIVE-ALARM REVIEW · BACHELORETTE PARTY</footer></blockquote>
+  </section>
+
+  <section class="booking-section" id="book">
+    <div class="booking-copy"><p class="eyebrow"><span></span> Sound the alarm</p><h2>READY TO<br><em>CALL US IN?</em></h2><p>Send the basics and our booking coordinator will follow up with availability and a custom quote.</p><div class="contact-lines"><a href="tel:4195550119">419-555-0119</a><a href="mailto:info@charmsfireco.com">info@charmsfireco.com</a><span>Serving private events across Northwest Ohio</span></div></div>
+    <form id="booking-form" class="booking-form"><div class="field-row"><label>YOUR NAME<input name="name" required placeholder="First and last"></label><label>EMAIL<input name="email" type="email" required placeholder="you@email.com"></label></div><div class="field-row"><label>EVENT TYPE<select name="event"><option>Bachelorette party</option><option>Birthday</option><option>Private party</option><option>Other event</option></select></label><label>EVENT DATE<input name="date" type="date" required></label></div><label>WHERE’S THE CALL?<input name="location" required placeholder="City or venue"></label><label>THE DETAILS<textarea name="details" rows="4" placeholder="Guest count, package, special requests..."></textarea></label><label class="check"><input type="checkbox" required><span>I confirm that I am 21 or older.</span></label><button class="button button-primary" type="submit">Request availability <span>→</span></button><p class="form-note" aria-live="polite">No payment required. We’ll reply within one business day.</p></form>
+  </section>
+</main>
+<footer><a class="brand" href="#top"><span class="brand-mark"><span>C</span></span><span class="brand-copy"><b>CHARMS FIRE CO.</b><small>HEAT FOR HIRE</small></span></a><p>NO DRIPS. JUST GRIPS.</p><p>© {{ now.Year }} CHARMS FIRE CO. · 21+ ONLY</p></footer>
+{{ end }}

@@ -1,0 +1,7 @@
+baseURL = "https://onlyleprechauns.com/"
+languageCode = "en-us"
+title = "Charms Fire Co. | Firefighter Entertainment"
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  description = "Premium firefighter-themed entertainment for bachelorettes, birthdays, and private events."
